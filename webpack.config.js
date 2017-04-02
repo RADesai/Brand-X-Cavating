@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
   entry: './src/main.js',
   output: {
@@ -7,7 +9,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      vue: 'vue/dist/vue.js'
+      vue: 'vue/dist/vue.common.js'
     }
   },
   module: {
@@ -23,11 +25,11 @@ module.exports = {
       }
     ]
   },
-  node: {
-    // dgram: "empty",
-    // tap: "empty",
-    fs: "empty"
-  },
+  // node: {
+  //   dgram: "empty",
+  //   tap: "empty",
+  //   fs: "empty"
+  // },
   vue: {
     loaders: {
       js: 'babel'
