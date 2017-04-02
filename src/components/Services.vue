@@ -1,7 +1,7 @@
 <template>
   <div class="container">
 
-    <div class="row services">
+    <div class="services">
       <div class="col-md-8">
         <br><h2>What We Offer</h2><br><br>
         <div class="row">

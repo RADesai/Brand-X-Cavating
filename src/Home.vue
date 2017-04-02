@@ -4,32 +4,32 @@
       <h1>
         Brand-X-Cavating & Sons Inc.
       </h1>
-      <div class="row nav">
-        <div class="col-md-6">
-          <h4>
-            Construction Service & Supply  <span class="secondary">Established 1977</span>
-          </h4>
+    </div>
+    <div class="row nav">
+      <div class="col-md-6">
+        <h4>
+          Construction Service & Supply  <span class="secondary">Established 1977</span>
+        </h4>
+      </div>
+      <div class="col-md-6 text-center">
+        <div class="col-md-3">
+          <div class="well well-sm" @click="setPage('about')">
+            About
+          </div>
         </div>
-        <div class="col-md-6 text-center">
-          <div class="col-md-3">
-            <div class="well well-sm" @click="setPage('about')">
-              About
-            </div>
+        <div class="col-md-3">
+          <div class="well well-sm" @click="setPage('services')">
+            Services
           </div>
-          <div class="col-md-3">
-            <div class="well well-sm" @click="setPage('services')">
-              Services
-            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="well well-sm" @click="setPage('gallery')">
+            Gallery
           </div>
-          <div class="col-md-3">
-            <div class="well well-sm" @click="setPage('gallery')">
-              Gallery
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="well well-sm" @click="setPage('contact')">
-              Contact Us
-            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="well well-sm" @click="setPage('contact')">
+            Contact Us
           </div>
         </div>
       </div>
@@ -42,18 +42,11 @@
 
     <hr>
 
-
-
-
-
-
-
     <footer>
       <div class="row">
         <div class="col-md-8">
-                <span class="text-left">Icons made by <a href="http://www.flaticon.com/authors/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a>, <a href="http://www.flaticon.com/authors/linh-pham" title="Linh Pham">Linh Pham</a>, <a href="http://www.freepik.com" title="Freepik">Freepik</a>, and <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>. Licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC BY 3.0</a></span>
+          <span class="text-left">Icons made by <a href="http://www.flaticon.com/authors/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a>, <a href="http://www.flaticon.com/authors/linh-pham" title="Linh Pham">Linh Pham</a>, <a href="http://www.freepik.com" title="Freepik">Freepik</a>, and <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>. Licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC BY 3.0</a></span>
         </div>
-        <!-- <div class="col-md-1 col-md-offset-1 text-right"> -->
         <div class="col-md-2 text-right">
           <div class="square">
             <a href="https://www.facebook.com/brandxcavating/" target="_blank">
@@ -115,10 +108,13 @@ h2, h4, footer {
   font-family: 'Titillium Web', sans-serif;
 }
 
+/*.nav {
+  position: fixed;
+}*/
+
 .square {
   position: relative;
 }
-
 .square img {
   width: 25%;
 }

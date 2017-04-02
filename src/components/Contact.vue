@@ -12,31 +12,21 @@
         </div>
         <hr>
         <form>
-          Name
-          <br>
-          <input v-model="name" placeholder="Name">
-          <br><br>
-          Email
-          <br>
-          <input v-model="email" placeholder="Email">
-          <br><br>
-          Subject
-          <br>
-          <input v-model="subject" placeholder="Subject">
-          <br><br>
-          Message
-          <textarea v-model="message" rows="6" placeholder="Message"></textarea>
+          <input v-model="name" placeholder="Name" required><br><br>
+          <input v-model="email" type="email" placeholder="Email" required><br><br>
+          <input v-model="subject" placeholder="Subject" required><br><br>
+          <textarea v-model="message" rows="6" placeholder="Message" required></textarea>
           <hr>
           <div class="row">
             <div class="col-md-6 text-left">
-              <div @click="contactUs()" class="well well-sm text-center" title="Submit Your Message!">
+              <button @click="contactUs()" class="well well-sm text-center" title="Submit Your Message!" type="submit">
                 <span class="glyphicon glyphicon-send"></span>
-              </div>
+              </button>
             </div>
             <div class="col-md-6 text-right">
-              <div @click="reset()" class="well well-sm text-center" title="Reset Your Message!">
+              <button type="reset" class="well well-sm text-center" title="Reset Your Message!">
                 <span class="glyphicon glyphicon-trash"></span>
-              </div>
+              </button>
             </div>
           </div>
         </form>
@@ -61,25 +51,17 @@
     methods: {
       contactUs: function() {
         let data = {
-          'name': this.name,
-          'email': this.email,
-          'subject': this.subject,
-          'message': this.message
+          'Name': this.name,
+          'Email': this.email,
+          'Subject': this.subject,
+          'Message': this.message
         };
         console.log('Submitting ...', data);
-        this.$http.post('/api/mail', data).then(response => {
-          console.log('Response Received:', response.body);
+        this.$http.post('http://formspree.io/rajdesai94@gmail.com', data).then(response => {
+          console.log('Email Sent!', response.body);
         }, response => {
           console.log('ERROR:', response);
         });
-      },
-      reset: function() {
-        console.log('Reset!');
-        this.name = '';
-        this.email = '';
-        this.subject = '';
-        this.message = '';
-        console.log('- - - - - - - - - - - - - -');
       }
     }
   }
@@ -109,7 +91,6 @@ input, textarea {
   color: #f1f4ff;
   background-color: transparent;
   border-radius: 6px 6px 8px 8px;
-  text-align: center;
   padding: 5px;
   border: 1px solid #f1f4ff;
 }
@@ -132,6 +113,10 @@ input:focus, textarea:focus {
   color: #202729;
   background-color: #f1f4ff;
   cursor: pointer;
+}
+
+button {
+  width: 100%;
 }
 
 .glyphicon-send {
