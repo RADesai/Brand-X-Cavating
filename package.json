@@ -13,11 +13,6 @@
   },
   "author": "Raj Ashish Desai",
   "license": "MIT",
-  "devDependencies": {
-    "vue-hot-reload-api": "^2.0.8",
-    "webpack-dev-middleware": "^1.9.0",
-    "webpack-hot-middleware": "^2.15.0"
-  },
   "dependencies": {
     "babel-core": "^6.1.2",
     "babel-loader": "^6.1.0",
@@ -32,9 +27,12 @@
     "style-loader": "^0.16.1",
     "vue": "^2.1.10",
     "vue-html-loader": "^1.0.0",
+    "vue-hot-reload-api": "^2.0.8",
     "vue-loader": "^7.3.0",
     "vue-resource": "^1.2.1",
     "vue-router": "^2.3.1",
-    "webpack": "^1.12.2"
+    "webpack": "^1.12.2",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-hot-middleware": "^2.15.0"
   }
 }
