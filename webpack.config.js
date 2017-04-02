@@ -9,7 +9,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      vue: 'vue/dist/vue.common.js'
+      vue: 'vue/dist/vue.js'
     }
   },
   module: {
@@ -25,11 +25,6 @@ module.exports = {
       }
     ]
   },
-  // node: {
-  //   dgram: "empty",
-  //   tap: "empty",
-  //   fs: "empty"
-  // },
   vue: {
     loaders: {
       js: 'babel'
