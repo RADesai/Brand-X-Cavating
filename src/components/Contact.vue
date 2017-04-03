@@ -18,14 +18,14 @@
           <hr>
           <div class="row">
             <div class="col-md-6 text-left">
-              <button @click="contactUs()" class="well well-sm text-center" title="Submit Your Message!" type="submit">
+              <div @click="contactUs()" class="well well-sm text-center" title="Submit Your Message!">
                 <span class="glyphicon glyphicon-send"></span>
-              </button>
+              </div>
             </div>
-            <div class="col-md-6 text-right">
-              <button type="reset" class="well well-sm text-center" title="Reset Your Message!">
+            <div @click="resetFields()" class="col-md-6 text-right">
+              <div class="well well-sm text-center" title="Reset Your Message!">
                 <span class="glyphicon glyphicon-trash"></span>
-              </button>
+              </div>
             </div>
           </div>
         </form>
@@ -43,7 +43,8 @@
         name: '',
         email: '',
         subject: '',
-        message: ''
+        message: '',
+        sent: false
       }
     },
     methods: {
@@ -54,28 +55,31 @@
           'Subject': this.subject,
           'Message': this.message
         };
-        console.log('Submitting ...', data);
-        this.$http.post('http://formspree.io/rajdesai94@gmail.com', data).then(response => {
-          console.log('Email Sent!', response.body);
-        }, response => {
-          console.log('ERROR:', response);
-        });
+        if (this.message !== '' ) {
+          console.log('Submitting ...', data);
+          this.$http.post('http://formspree.io/rajdesai94@gmail.com', data).then(response => {
+            console.log('Email Sent!', response.body);
+            this.sent = true;
+            this.name = '';
+            this.email = '';
+            this.subject = '';
+            this.message = "Thank you! We've received your message and will get back to you ASAP!";
+          }, response => {
+            console.log('ERROR:', response);
+          });
+        }
+      },
+      resetFields: function() {
+        this.name = '';
+        this.email = '';
+        this.subject = '';
+        this.message = '';
       }
     }
   }
 </script>
 
 <style>
-.link {
-  transition: .3s ease-out;
-  color: 'fff';
-}
-.link:hover {
-  background-color: '#FFD877';
-  color: #000;
-  transform: translateY(-3px);
-}
-
 h2 {
   margin: 0px;
 }
@@ -86,35 +90,20 @@ h2 {
 
 input, textarea {
   width: 100%;
-  color: #f1f4ff;
+  color: #E7E8E8;
   background-color: transparent;
   border-radius: 6px 6px 8px 8px;
   padding: 5px;
   border: 1px solid #f1f4ff;
 }
 input:hover, textarea:hover {
-  opacity: 0.8;
   border-color: #63D297;
+  color: #f1f4ff;
 }
 input:focus, textarea:focus {
   border: 1px solid #63D297;
   box-shadow: 0px 2px 1px 0px #63D297;
   outline: none;
-}
-
-.well {
-  background-color: transparent;
-  transition: .3s ease-out;
-  font-family: 'Titillium Web', sans-serif;
-}
-.well:hover {
-  color: #202729;
-  background-color: #f1f4ff;
-  cursor: pointer;
-}
-
-button {
-  width: 100%;
 }
 
 .glyphicon-send {

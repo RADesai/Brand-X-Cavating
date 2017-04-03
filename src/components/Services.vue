@@ -11,7 +11,7 @@
           <div class="col-md-11">
             <div class="description">
               <h4>Retaining Walls</h4>
-              ...word words wordssses about what this is
+              <h6>Feel free to contact us by phone or through the contact page of the site, we look forward to working with you!</h6>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@
           <div class="col-md-11">
             <div class="description">
               <h4>Demolition</h4>
-              ...word words wordssses about what this is
+              <h6>Feel free to contact us by phone or through the contact page of the site, we look forward to working with you!</h6>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@
           <div class="col-md-11">
             <div class="description">
               <h4>Septic Systems</h4>
-              ...word words wordssses about what this is
+              <h6>Feel free to contact us by phone or through the contact page of the site, we look forward to working with you!</h6>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@
           <div class="col-md-11">
             <div class="description">
               <h4>Hammer</h4>
-              ...word words wordssses about what this is
+              <h6>Feel free to contact us by phone or through the contact page of the site, we look forward to working with you!</h6>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@
           <div class="col-md-11">
             <div class="description">
               <h4>Grapple Service</h4>
-              ...word words wordssses about what this is
+              <h6>Feel free to contact us by phone or through the contact page of the site, we look forward to working with you!</h6>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@
           <div class="col-md-11">
             <div class="description">
               <h4>Trucking</h4>
-              ...word words wordssses about what this is
+              <h6>Feel free to contact us by phone or through the contact page of the site, we look forward to working with you!</h6>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@
           <div class="col-md-11">
             <div class="description">
               <h4>Snow Plowing</h4>
-              ...word words wordssses about what this is
+              <h6>Feel free to contact us by phone or through the contact page of the site, we look forward to working with you!</h6>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@
           <div class="col-md-11">
             <div class="description">
               <h4>Drainage</h4>
-              ...word words wordssses about what this is
+              <h6>Feel free to contact us by phone or through the contact page of the site, we look forward to working with you!</h6>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@
           <div class="col-md-11">
             <div class="description">
               <h4>Mobile Crushing</h4>
-              ...word words wordssses about what this is
+              <h6>Feel free to contact us by phone or through the contact page of the site, we look forward to working with you!</h6>
             </div>
           </div>
         </div>
