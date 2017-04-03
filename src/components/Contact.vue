@@ -56,7 +56,7 @@
         };
         if (this.message !== '' ) {
           console.log('Submitting ...', data);
-          this.$http.post('http://formspree.io/dbrand6194@gmail.com', data).then(response => {
+          this.$http.post('https://formspree.io/dbrand6194@gmail.com', data).then(response => {
             console.log('Email Sent!', response.body);
             this.sent = true;
             this.name = '';
