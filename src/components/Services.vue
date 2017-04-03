@@ -15,7 +15,7 @@
             </div>
           </div>
         </div>
-        <hr>
+        <hr class="blend">
         <div class="row">
           <div class="col-md-1">
             <br>
@@ -28,7 +28,7 @@
             </div>
           </div>
         </div>
-        <hr>
+        <hr class="blend">
         <div class="row">
           <div class="col-md-1">
             <br>
@@ -41,7 +41,7 @@
             </div>
           </div>
         </div>
-        <hr>
+        <hr class="blend">
         <div class="row">
           <div class="col-md-1">
             <br>
@@ -54,7 +54,7 @@
             </div>
           </div>
         </div>
-        <hr>
+        <hr class="blend">
         <div class="row">
           <div class="col-md-1">
             <br>
@@ -67,7 +67,7 @@
             </div>
           </div>
         </div>
-        <hr>
+        <hr class="blend">
         <div class="row">
           <div class="col-md-1">
             <br>
@@ -80,7 +80,7 @@
             </div>
           </div>
         </div>
-        <hr>
+        <hr class="blend">
         <div class="row">
           <div class="col-md-1">
             <br>
@@ -93,7 +93,7 @@
             </div>
           </div>
         </div>
-        <hr>
+        <hr class="blend">
         <div class="row">
           <div class="col-md-1">
             <br>
@@ -106,7 +106,7 @@
             </div>
           </div>
         </div>
-        <hr>
+        <hr class="blend">
         <div class="row">
           <div class="col-md-1">
             <br>
@@ -119,6 +119,7 @@
             </div>
           </div>
         </div>
+        <hr class="blend">
       </div>
     </div>
   </div>

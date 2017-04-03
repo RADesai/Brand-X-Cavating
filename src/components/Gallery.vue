@@ -14,7 +14,7 @@
         <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/11745534_1147216401959906_6416169977486537876_n.jpg?oh=f6899050860db894f290f259af09b3d2&oe=59502B53" class="img-rounded">
       </div>
     </div>
-    <hr>
+    <hr class="blend">
     <div class="row text-center">
       <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12308591_1217663241581888_4452908051317962836_n.jpg?oh=c229116768790d189d7fbb300c15ba52&oe=599714CD" alt="'BrandX'" class="img-rounded">
     </div>

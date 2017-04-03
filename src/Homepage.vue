@@ -36,7 +36,7 @@
       <Services v-if="page==='services'"></Services>
       <Gallery v-if="page==='gallery'"></Gallery>
       <Contact v-if="page==='contact'"></Contact>
-      <hr>
+      <hr class="blend">
       <PageFooter></PageFooter>
     </div>
   </div>
@@ -76,7 +76,7 @@ h1 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h2, h4, footer {
+h2, h3, h4 {
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -121,11 +121,15 @@ li {
 .navbar {
   background-color: #202729;
   z-index: 10;
-  border: none;
-  box-shadow: 0 1px 2px #f1f4ff;
+  border-bottom: 1px solid #3f4b4f;
+  box-shadow: 0 1px 2px #3f4b4f;
 }
 
 .components {
   margin-top: 10%;
+}
+
+.blend {
+  border-color: #3f4b4f;
 }
 </style>

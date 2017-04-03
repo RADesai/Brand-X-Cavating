@@ -33,6 +33,18 @@
 </script>
 
 <style>
+footer {
+  color: #7e9299;
+}
+span a {
+  text-decoration: none;
+  color: #f1f4ff;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffd877;
+}
 .square {
   position: relative;
 }

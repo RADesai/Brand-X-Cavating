@@ -1,19 +1,19 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
-        <div class="heading text-center">
-          <br><h2>About</h2><hr>
+      <div class="col-md-3 text-center">
+        <div class="heading">
+          <h2>About</h2><hr class="blend">
         </div>
         <div class="about">
           Here at Brand-X-Cavating located at 352 Oldham Rd, Wayne, New Jersey 07470,
           we offer services like Septic Systems, Retaining Walls, Demolition, Hammer,
           Grapple Service, Trucking, Snow Plowing, Drainage, Mobile Crushing & many more.
           Please feel free to reach out to us with any questions or concerns at (973) 720-0434.
+          <br><br>
+          BrandX is a leading construction service and supply company established in 1977. BrandX has continued to grow thanks to a well-earned reputation for quality and integrity with a firm commitment to exceeding our client's expectations. We serve a wide range of customers and look forward to working with you soon!
+          <hr class="blend">
         </div>
-        <h4>
-          Construction Service & Supply  <span class="secondary">Established 1977</span>
-        </h4>
       </div>
       <div class="col-md-9">
         <img class="img-rounded brandx" src="http://image.ibb.co/d4EOrF/brandX.png" alt="Brand-X-Cavating">

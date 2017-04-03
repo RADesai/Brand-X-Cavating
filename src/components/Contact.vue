@@ -5,17 +5,16 @@
         <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/546858_544383065576579_1217136824_n.jpg?oh=c1ab5c90768227348737d2fa45897834&oe=5997658E" class="img-rounded">
       </div>
       <div class="col-md-4">
-        <br>
         <div class="heading text-center">
           <h2>Leave a Message</h2>
         </div>
-        <hr>
+        <hr class="blend">
         <form>
           <input v-model="name" placeholder="Name" required><br><br>
           <input v-model="email" type="email" placeholder="Email" required><br><br>
           <input v-model="subject" placeholder="Subject" required><br><br>
           <textarea v-model="message" rows="6" placeholder="Message" required></textarea>
-          <hr>
+          <hr class="offwhite">
           <div class="row">
             <div class="col-md-6 text-left">
               <div @click="contactUs()" class="well well-sm text-center" title="Submit Your Message!">
@@ -57,7 +56,7 @@
         };
         if (this.message !== '' ) {
           console.log('Submitting ...', data);
-          this.$http.post('http://formspree.io/rajdesai94@gmail.com', data).then(response => {
+          this.$http.post('http://formspree.io/dbrand6194@gmail.com', data).then(response => {
             console.log('Email Sent!', response.body);
             this.sent = true;
             this.name = '';
@@ -80,8 +79,8 @@
 </script>
 
 <style>
-h2 {
-  margin: 0px;
+.offwhite {
+  border-color: #f1f4ff;
 }
 
 .heading {
@@ -121,5 +120,4 @@ input:focus, textarea:focus {
 .glyphicon-trash:hover {
   transform: translateY(3px);
 }
-
 </style>
