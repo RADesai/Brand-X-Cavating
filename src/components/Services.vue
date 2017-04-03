@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-
     <div class="services">
       <div class="col-md-8">
         <br><h2>What We Offer</h2><br><br>
@@ -129,11 +128,7 @@
   export default {
     name: 'services',
     components: {},
-    data() {
-      return {
-        xyz: 'Welcome to your new Vue Project!'
-      }
-    }
+    data() { return {} }
   }
 </script>
 

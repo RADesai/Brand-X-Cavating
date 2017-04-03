@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-
     <div class="row about">
       <div class="col-md-7">
         <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/546858_544383065576579_1217136824_n.jpg?oh=c1ab5c90768227348737d2fa45897834&oe=5997658E" class="img-rounded">
@@ -32,7 +31,6 @@
         </form>
       </div>
     </div>
-
   </div>
 </template>
 

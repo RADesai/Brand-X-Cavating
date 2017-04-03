@@ -63,10 +63,7 @@
             <abbr title="Feel free to give us a call!">Ph #:</abbr> (973) 720-0434
           </address>
         </div>
-
       </div>
-
-
     </footer>
   </div>
 </template>
