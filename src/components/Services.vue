@@ -45,7 +45,7 @@
         <div class="row">
           <div class="col-md-1">
             <br>
-            <img src="http://image.ibb.co/bV46Tv/boring_machine.png" alt="boring_machine">
+            <img src="https://image.ibb.co/bV46Tv/boring_machine.png" alt="boring_machine">
           </div>
           <div class="col-md-11">
             <div class="description">
@@ -58,7 +58,7 @@
         <div class="row">
           <div class="col-md-1">
             <br>
-            <img src="http://image.ibb.co/eqt0ov/truck_crane.png" alt="truck_crane">
+            <img src="https://image.ibb.co/eqt0ov/truck_crane.png" alt="truck_crane">
           </div>
           <div class="col-md-11">
             <div class="description">
@@ -71,7 +71,7 @@
         <div class="row">
           <div class="col-md-1">
             <br>
-            <img src="http://image.ibb.co/bxsRTv/truck.png" alt="truck">
+            <img src="https://image.ibb.co/bxsRTv/truck.png" alt="truck">
           </div>
           <div class="col-md-11">
             <div class="description">
@@ -84,7 +84,7 @@
         <div class="row">
           <div class="col-md-1">
             <br>
-            <img src="http://image.ibb.co/kKDi8v/truck_cleaner_snow.png" alt="truck_cleaner_snow">
+            <img src="https://image.ibb.co/kKDi8v/truck_cleaner_snow.png" alt="truck_cleaner_snow">
           </div>
           <div class="col-md-11">
             <div class="description">
@@ -97,7 +97,7 @@
         <div class="row">
           <div class="col-md-1">
             <br>
-            <img src="http://image.ibb.co/isq8aa/faucet.png" alt="drainage">
+            <img src="https://image.ibb.co/isq8aa/faucet.png" alt="drainage">
           </div>
           <div class="col-md-11">
             <div class="description">
@@ -110,7 +110,7 @@
         <div class="row">
           <div class="col-md-1">
             <br>
-            <img src="http://image.ibb.co/cAMmTv/excavator.png" alt="excavator">
+            <img src="https://image.ibb.co/cAMmTv/excavator.png" alt="excavator">
           </div>
           <div class="col-md-11">
             <div class="description">
