@@ -6,7 +6,7 @@
         <div class="row">
           <div class="col-md-1">
             <br>
-            <img class="preview" src="http://image.ibb.co/nQQwTv/brick_wall.png" alt="brick_wall">
+            <img class="preview" src="https://image.ibb.co/nQQwTv/brick_wall.png" alt="brick_wall">
           </div>
           <div class="col-md-11">
             <div class="description">
@@ -19,7 +19,7 @@
         <div class="row">
           <div class="col-md-1">
             <br>
-            <img class="preview" src="http://image.ibb.co/cVVVov/demolition_crane.png" alt="demolition_crane">
+            <img class="preview" src="https://image.ibb.co/cVVVov/demolition_crane.png" alt="demolition_crane">
           </div>
           <div class="col-md-11">
             <div class="description">
@@ -32,7 +32,7 @@
         <div class="row">
           <div class="col-md-1">
             <br>
-            <img class="media-object" src="http://image.ibb.co/dZrQMF/tanks.png" alt="tanks">
+            <img class="media-object" src="https://image.ibb.co/dZrQMF/tanks.png" alt="tanks">
           </div>
           <div class="col-md-11">
             <div class="description">

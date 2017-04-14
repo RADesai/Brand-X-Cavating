@@ -7,8 +7,8 @@
       <div class="col-md-2 text-right">
         <div class="square">
           <a href="https://www.facebook.com/brandxcavating/" target="_blank">
-            <img class="bottom" src="http://image.ibb.co/cwTuFa/facebook_logo_in_circular_button_outlined_social_symbol_3.png" alt="facebook_logo_in_circular_button_outlined_social_symbol_3">
-            <img class="top" src="http://image.ibb.co/fd3xJv/facebook_logo_in_circular_button_outlined_social_symbol_4.png" alt="facebook_logo_in_circular_button_outlined_social_symbol_2">
+            <img class="bottom" src="https://image.ibb.co/cwTuFa/facebook_logo_in_circular_button_outlined_social_symbol_3.png" alt="facebook_logo_in_circular_button_outlined_social_symbol_3">
+            <img class="top" src="https://image.ibb.co/fd3xJv/facebook_logo_in_circular_button_outlined_social_symbol_4.png" alt="facebook_logo_in_circular_button_outlined_social_symbol_2">
           </a>
         </div>
       </div>

@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="col-md-9">
-        <img class="img-rounded brandx" src="http://image.ibb.co/d4EOrF/brandX.png" alt="Brand-X-Cavating">
+        <img class="img-rounded brandx" src="https://image.ibb.co/d4EOrF/brandX.png" alt="Brand-X-Cavating">
       </div>
     </div>
   </div>
