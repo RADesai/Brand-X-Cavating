@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <div class="row about">
-      <div class="col-md-7">
+      <div class="col-md-7 col-xs-12">
         <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/546858_544383065576579_1217136824_n.jpg?oh=c1ab5c90768227348737d2fa45897834&oe=5997658E" class="img-rounded">
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-12">
         <div class="heading text-center">
           <h2>Leave a Message</h2>
         </div>
@@ -16,12 +16,12 @@
           <textarea v-model="message" rows="6" placeholder="Message" required></textarea>
           <hr class="offwhite">
           <div class="row">
-            <div class="col-md-6 text-left">
+            <div class="col-xs-6 text-left">
               <div @click="contactUs()" class="well well-sm text-center" title="Submit Your Message!">
                 <span class="glyphicon glyphicon-send"></span>
               </div>
             </div>
-            <div @click="resetFields()" class="col-md-6 text-right">
+            <div @click="resetFields()" class="col-xs-6 text-right">
               <div class="well well-sm text-center" title="Reset Your Message!">
                 <span class="glyphicon glyphicon-trash"></span>
               </div>

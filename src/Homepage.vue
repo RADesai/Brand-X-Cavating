@@ -2,12 +2,12 @@
   <div class="container">
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <div class="logo col-md-6">
+        <div class="logo col-md-6 col-xs-12">
           <h1>
             Brand-X-Cavating & Sons Inc.
           </h1>
         </div>
-        <div class="links text-center col-md-6">
+        <div class="links text-center col-md-6 col-xs-12">
           <li class="col-md-3">
             <div class="link well well-sm" @click="setPage('about')">
               About

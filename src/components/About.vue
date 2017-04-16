@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-3 text-center">
+      <div class="col-md-3 col-xs-12 text-center">
         <div class="heading">
           <h2>About</h2><hr class="blend">
         </div>
@@ -15,7 +15,7 @@
           <hr class="blend">
         </div>
       </div>
-      <div class="col-md-9">
+      <div class="col-md-9 col-xs-12">
         <img class="img-rounded brandx" src="https://image.ibb.co/d4EOrF/brandX.png" alt="Brand-X-Cavating">
       </div>
     </div>
