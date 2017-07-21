@@ -29,28 +29,6 @@
             </div>
           </li>
         </div>
-        <!-- <div class="links text-center col-md-6 col-xs-12">
-          <li class="col-md-3 col-xs-6">
-            <div class="link well well-sm" @click="setPage('about')">
-              About
-            </div>
-          </li>
-          <li class="col-md-3 col-xs-6">
-            <div class="link well well-sm" @click="setPage('services')">
-              Services
-            </div>
-          </li>
-          <li class="col-md-3 col-xs-6">
-            <div class="link well well-sm" @click="setPage('gallery')">
-              Gallery
-            </div>
-          </li>
-          <li class="col-md-3 col-xs-6">
-            <div class="link well well-sm" @click="setPage('contact')">
-              Contact Us
-            </div>
-          </li>
-        </div> -->
       </div>
     </nav>
     <div class="navbar-margin">
