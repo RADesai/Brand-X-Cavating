@@ -1,43 +1,43 @@
 <template>
   <div class="container">
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default">
       <div class="container">
         <div class="logo col-md-6 col-xs-12">
           <h1>
             Brand-X-Cavating & Sons Inc.
           </h1>
         </div>
-        <div class="links text-center col-md-6 col-xs-12">
-          <li class="col-md-3">
-            <div class="link well well-sm" @click="setPage('about')">
-              About
+        <div class="text-center col-md-6 col-xs-12">
+          <li class="col-xs-3">
+            <div class="link" @click="setPage('about')">
+              <br />About
             </div>
           </li>
-          <li class="col-md-3">
-            <div class="link well well-sm" @click="setPage('services')">
-              Services
+          <li class="col-xs-3">
+            <div class="link" @click="setPage('services')">
+              <br />Services
             </div>
           </li>
-          <li class="col-md-3">
-            <div class="link well well-sm" @click="setPage('gallery')">
-              Gallery
+          <li class="col-xs-3">
+            <div class="link" @click="setPage('gallery')">
+              <br />Gallery
             </div>
           </li>
-          <li class="col-md-3">
-            <div class="link well well-sm" @click="setPage('contact')">
-              Contact Us
+          <li class="col-xs-3">
+            <div class="link" @click="setPage('contact')">
+              <br />Contact
             </div>
           </li>
         </div>
       </div>
     </nav>
-    <div class="components">
+    <div class="navbar-margin">
       <About v-if="page==='about'"></About>
       <Services v-if="page==='services'"></Services>
       <Gallery v-if="page==='gallery'"></Gallery>
       <Contact v-if="page==='contact'"></Contact>
-      <hr class="blend">
-      <PageFooter></PageFooter>
+      <hr class="bgColor-blend">
+      <PageFooter v-if="page==='services'"></PageFooter>
     </div>
   </div>
 </template>
@@ -85,19 +85,14 @@ h2, h3, h4 {
   font-size: 15px;
 }
 
-.links {
-  float: right;
-}
-
 .link {
   transition: .3s ease-out;
   color: #f1f4ff;
   font-family: 'Titillium Web', sans-serif;
 }
 .link:hover {
-  background-color: '#FFD877';
-  color: #202729;
-  transform: translateY(-3px);
+  color: #FFD877;
+  cursor: pointer;
 }
 .link:active {
   color: #867bcd;
@@ -121,15 +116,11 @@ li {
 .navbar {
   background-color: #202729;
   z-index: 10;
+  border: none;
   border-bottom: 1px solid #3f4b4f;
-  box-shadow: 0 1px 2px #3f4b4f;
 }
 
-.components {
-  margin-top: 10%;
-}
-
-.blend {
+.bgColor-blend {
   border-color: #3f4b4f;
 }
 </style>
