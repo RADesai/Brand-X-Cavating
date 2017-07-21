@@ -8,7 +8,7 @@
         <div class="heading text-center">
           <h2>Leave a Message</h2>
         </div>
-        <hr class="blend">
+        <hr class="bgColor-blend">
         <form>
           <input v-model="name" placeholder="Name" required><br><br>
           <input v-model="email" type="email" placeholder="Email" required><br><br>
