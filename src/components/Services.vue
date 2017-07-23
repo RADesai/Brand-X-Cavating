@@ -2,13 +2,15 @@
   <div class="container">
     <div class="services">
       <div class="col-md-10 col-md-offset-1 col-xs-12">
-        <h2>What We Offer</h2><br>
+        <h2>What We Offer</h2>
+        <br>
         <div class="services-container text-center">
           <div v-for="(service, index) in servicesAndIcons">
             <div class="col-md-4 col-xs-12 text-center">
               <div class="service-container">
                 <div class="service-icon-container">
-                  <br><img :src="service.icon" class="service-icon" alt="excavator">
+                  <br>
+                  <img :src="service.icon" class="service-icon" alt="excavator">
                 </div>
                 <hr class="service-bar"/>
                 <div class="service-description text-left">

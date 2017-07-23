@@ -10,22 +10,26 @@
         <div class="text-center col-md-6 col-xs-12">
           <li class="col-xs-3">
             <div class="link" @click="setPage('about')">
-              <br />About
+              <br />
+              About
             </div>
           </li>
           <li class="col-xs-3">
             <div class="link" @click="setPage('services')">
-              <br />Services
+              <br />
+              Services
             </div>
           </li>
           <li class="col-xs-3">
             <div class="link" @click="setPage('gallery')">
-              <br />Gallery
+              <br />
+              Gallery
             </div>
           </li>
           <li class="col-xs-3">
             <div class="link" @click="setPage('contact')">
-              <br />Contact
+              <br />
+              Contact
             </div>
           </li>
         </div>
@@ -68,6 +72,8 @@
 
 <style>
 body {
+  /*background-color: #f1f4ff;
+  color: #202729;*/
   background-color: #202729;
   color: #f1f4ff;
 }
